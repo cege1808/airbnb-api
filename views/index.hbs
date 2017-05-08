@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+
+</head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="../javascripts/main.js"></script>
+<body>
+
+<h1>Airbnb API</h1>
+<form id="search_query">
+  <label>Guests</label>
+  <input type="number" name="guests"><br>
+  <label>Page</label>
+  <input type="number" name="page"><br>
+  <label>Location</label>
+  <input type="text" name="location"><br>
+  <label>Min Price</label>
+  <input type="number" name="price_min"><br>
+  <label>Max Price</label>
+  <input type="number" name="price_max"><br>
+  <label>Min Bedrooms</label>
+  <input type="number" name="min_bedrooms"><br>
+  <label>Min Bathrooms</label>
+  <input type="number" name="min_bathrooms"><br>
+  <label>Min Beds</label>
+  <input type="number" name="min_beds"><br>
+  <label>Superhost</label>
+  <input type="radio" name="superhost" value=true>Yes</input>
+  <input type="radio" name="superhost" value=false checked>All</input><br>
+  <label>Keywords</label>
+  <input type="text" name="keywords"><br>
+  <label>Instant Booking</label>
+  <input type="radio" name="ib" value=true>Yes</input>
+  <input type="radio" name="ib" value=false checked>No</input><br>
+  <button>Search</button>
+</form>
+<br>
+<div id="metadata"></div>
+<div id="results"></div>
+
+</body>
+
+
+</html>
