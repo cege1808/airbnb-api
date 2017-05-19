@@ -1,5 +1,6 @@
 $(function(){
 
+  // https://github.com/phamtrisi/airapi/blob/master/api/search.js
   $("#search_query").submit(function(event){
     event.preventDefault();
     var search_query = {};
