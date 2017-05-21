@@ -9,14 +9,17 @@
     "airapi": "^0.1.0",
     "body-parser": "^1.17.1",
     "cheerio": "^0.22.0",
+    "chromedriver": "^2.29.0",
     "cookie-parser": "^1.4.3",
     "cors": "^2.8.3",
     "debug": "~2.6.3",
     "express": "~4.15.2",
+    "geckodriver": "^1.6.1",
     "hbs": "^4.0.1",
     "morgan": "^1.8.1",
     "needle": "^1.6.0",
     "request": "^2.81.0",
+    "selenium-webdriver": "^3.4.0",
     "serve-favicon": "^2.4.2"
   }
 }
